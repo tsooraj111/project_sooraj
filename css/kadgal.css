@@ -124,11 +124,11 @@ body{
 }
 #sect1 #avail{
     height: 11.3rem;
-    width: 73rem;
+    width: 70rem;
     background-color: #ffffff;
     position: absolute;
-    top: 570px;
-    margin: 0px 100px;
+    top: 500px;
+    margin: 0px 70px;
     padding: 30px 20px;
     display: flex;
     font-family: 'Mulish', sans-serif;
@@ -220,7 +220,7 @@ body{
     top: 360px;
 }
 #sect2{
-    margin: 0px 90px;
+    margin: 0px 70px;
 }
 .sect2-cont{
     display: flex;
@@ -230,7 +230,7 @@ body{
     margin-top: 60px;
 }
 .cont1,.cont2{
-    width: 36rem;
+    width: 34rem;
     word-wrap: break-word;
 }
 .sect2-cont .cont2{
@@ -239,7 +239,7 @@ body{
     margin-left: 30px;
 }
 .cont1 img{
-    width: 36rem;
+    width: 100%;
 }
 #sect2 .head{
     width: 100%;
@@ -449,7 +449,7 @@ body{
     margin-top: 70px;
 }
 footer{
-    height: 90vh;
+    height: 100vh;
     background-color: #4b4b4b;
     margin-top: 50px;
 }
