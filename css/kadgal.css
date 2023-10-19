@@ -133,18 +133,19 @@ body{
 }
 #sect1 #avail{
     height: 11.3rem;
-    width: 70rem;
+    width: 90%;
     background-color: #ffffff;
     position: absolute;
     top: 500px;
-    margin: 0px 70px;
+    margin: 0px 80px;
     padding: 30px 20px;
     display: flex;
+    align-items: center;
     font-family: 'Mulish', sans-serif;
     box-shadow: 0px 0px 10px rgba(220, 220, 220, 0.815);
 }
 #sect1 #avail .av{
-    height: auto;
+    height: 100%;
     width: 100%;
     background-color: #fff;
     padding: 20px;
@@ -181,16 +182,16 @@ body{
     outline: none;
 }
 #sect1 #avail .avdate input,#sect1 #avail .dpdate input{
-    width: 200px;
+    width: 100%;
 }
 #sect1 #avail .avdate,#sect1 #avail .dpdate,#sect1 #avail .adults,#sect1 #avail .children,#sect1 #avail .check{
     margin: 0px 10px;
 }
 #sect1 #avail .adults,#sect1 #avail .children{
-    flex-basis: 10%;
+    flex-basis: 15%;
 }
 #sect1 #avail .adults input,#sect1 #avail .children input{
-    width: 100px;
+    width: 100%;
 }
 #sect1 #avail .check a{
     text-transform: capitalize;
@@ -253,6 +254,7 @@ body{
 #sect2 .head{
     width: 100%;
     margin-top: 170px;
+    text-align: center;
 }
 .head h2,.cont2 h2{
     font-family: 'DM Serif Display', serif;
@@ -302,10 +304,10 @@ body{
     100%{transform: translateX(0px); opacity: 1;}
 }
 #sect2 .head>h2{
-    width: 600px;
+    width: 100%;
     font-size: 35px;
     position: relative;
-    left: 290px;
+    padding: 0px 300px;
     text-align: center;
 }
 #sect2 .head>span{
